@@ -1,0 +1,31 @@
+@mixin start {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+@mixin center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+@mixin end {
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+@mixin p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+@mixin h1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@mixin img {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
